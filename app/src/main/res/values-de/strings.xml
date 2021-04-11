@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FourInARow</string>
+    <string name="fiar_player_1">Spieler 1</string>
+    <string name="fiar_player_2">Spieler 2</string>
+</resources>
