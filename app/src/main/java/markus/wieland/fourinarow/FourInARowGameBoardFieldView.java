@@ -13,7 +13,8 @@ import markus.wieland.games.game.view.GameStateField;
 
 public class FourInARowGameBoardFieldView extends androidx.appcompat.widget.AppCompatButton implements GridGameBoardFieldView {
 
-    public static final int PLAYER_1
+    public static final int PLAYER_1 = 0;
+    public static final int PLAYER_2 = 1;
 
     public FourInARowGameBoardFieldView(@NonNull Context context) {
         super(context);
@@ -30,6 +31,10 @@ public class FourInARowGameBoardFieldView extends androidx.appcompat.widget.AppC
     @Override
     public Coordinate getCoordinate() {
         return null;
+    }
+
+    public void update(){
+
     }
 
     @Override
