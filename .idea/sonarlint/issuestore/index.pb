@@ -19,3 +19,11 @@ x
 Happ/src/main/java/markus/wieland/fourinarow/FourInARowGameBoardView.java,5\d\5db315db929f532b0d81b3195ead4dc3de65f1b8
 k
 ;app/src/main/java/markus/wieland/fourinarow/FourInARow.java,6\9\6952b13269859081c8a2bc6348864ab1a582b541
+<
+build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
+y
+Iapp/src/main/java/markus/wieland/fourinarow/FourInARowGameStateField.java,d\5\d572bc7f03b4eb3f39b03a36cfc0012be513d545
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
+t
+Dapp/src/main/java/markus/wieland/fourinarow/FourInARowGameState.java,4\2\42af76bd66f4231bdbd9128801a2eaa458b1a478

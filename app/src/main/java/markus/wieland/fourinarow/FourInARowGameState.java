@@ -18,9 +18,12 @@ public class FourInARowGameState extends GridGameState<FourInARowGameStateField>
     }
 
     public int[][] convert(){
-        int[][] board = new int[FourInARowGameBoardView.SIZE_Y][FourInARowGameBoardView.SIZE_X];
+        int[][] board = new int[FourInARowGameBoardView.SIZE_Y + 1][FourInARowGameBoardView.SIZE_X];
         for (FourInARowGameStateField field : matrix) {
             board[field.getCoordinate().getY()][field.getCoordinate().getX()] = field.getValue();
+        }
+        for (int x = 0; x < FourInARowGameBoardView.SIZE_X; x++) {
+            board[FourInARowGameBoardView.SIZE_Y][x] = 2;
         }
         return board;
     }

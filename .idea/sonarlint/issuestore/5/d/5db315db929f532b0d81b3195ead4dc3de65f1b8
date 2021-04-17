@@ -1,9 +1,9 @@
 
-O
-java:S11350"2Complete the task associated to this TODO comment.(œÔëÈ8æÔƒõ‹/
+j
+java:S1854…"GRemove this useless assignment to local variable "fourInARowGameState".(Õíºñøÿÿÿÿ8Ø®€õ‹/
 ž
-java:S1186i"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(çä³÷8Ø®€õ‹/
-i
-java:S1854t"GRemove this useless assignment to local variable "fourInARowGameState".(Õíºñøÿÿÿÿ8Ø®€õ‹/
-Z
-java:S1481t"8Remove this unused "fourInARowGameState" local variable.(Õíºñøÿÿÿÿ8Ø®€õ‹/
+java:S1186z"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(çä³÷8Ø®€õ‹/
+W
+java:S1161u":Add the "@Override" annotation above this method signature(Êþ±¦8ªßá”Œ/
+[
+java:S1481…"8Remove this unused "fourInARowGameState" local variable.(Õíºñøÿÿÿÿ8Ø®€õ‹/

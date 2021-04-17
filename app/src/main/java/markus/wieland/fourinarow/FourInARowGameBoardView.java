@@ -45,39 +45,43 @@ public class FourInARowGameBoardView extends GridGameBoardView<FourInARowGameBoa
     @Override
     protected void initializeLines() {
 
-
-
-        //horizontal
-
-        for (int x = 0; x < 6; x++) {
-            for (int y = 0; y < 4; y++) {
+        for (int y = 0; y < SIZE_Y; y++) {
+            for (int x = 0; x < 4; x++) {
                 Line line = new Line();
-                line.add(new Coordinate(x, y));
-                line.add(new Coordinate(x, y + 1));
-                line.add(new Coordinate(x, y + 2));
-                line.add(new Coordinate(x, y + 3));
-                line.add(new Coordinate(x, y - 1));
-                line.add(new Coordinate(x, y));
-                line.add(new Coordinate(x, y - 1));
-                line.add(new Coordinate(x, y - 2));
+                addCoordinateToLine(x, y, line);
+                addCoordinateToLine(x + 1, y, line);
+                addCoordinateToLine(x + 2, y, line);
+                addCoordinateToLine(x + 3, y, line);
+                addCoordinateToLine(x, y - 1, line);
+                addCoordinateToLine(x + 1, y - 1, line);
+                addCoordinateToLine(x + 2, y - 1, line);
+                addCoordinateToLine(x + 3, y - 1, line);
                 lines.add(line);
             }
         }
 
+        for (int y = 0; y < 3; y++ ) {
+            for (int x = 0; x < SIZE_X; x++) {
+                Line line = new Line();
+                addCoordinateToLine(x, y, line);
+            }
+        }
+
+        //horizontal
         //vertical
         for (int y = 0; y < 7; y++) {
             for (int x = 0; x < 3; x++) {
                 Line line = new Line();
                 line.add(new Coordinate(x, y));
-                line.add(new Coordinate(x+1, y));
-                line.add(new Coordinate(x+2, y));
-                line.add(new Coordinate(x+3, y));
+                line.add(new Coordinate(x + 1, y));
+                line.add(new Coordinate(x + 2, y));
+                line.add(new Coordinate(x + 3, y));
                 lines.add(line);
             }
         }
 
         //diagonal bottom left to upper right
-        for (int x = 0; x < 3; x++) {
+        /*for (int x = 0; x < 3; x++) {
             for (int y = 0; y < 4; y++) {
                 List<Coordinates> coordinates = new ArrayList<>();
                 coordinates.add(new Coordinates(x, y));
@@ -100,11 +104,18 @@ public class FourInARowGameBoardView extends GridGameBoardView<FourInARowGameBoa
                 ConnectFourLine line = new ConnectFourLine(coordinates);
                 LINES.add(line);
             }
-        }
+        }*/
     }
 
-    public List<Line> getLines() {
-        return lines;
+    public void performClick(int column) {
+
+    }
+
+    private void addCoordinateToLine(int x, int y, Line line) {
+        if (y < 0) {
+            y = getSizeY();
+        }
+        line.add(new Coordinate(x, y));
     }
 
     @Override

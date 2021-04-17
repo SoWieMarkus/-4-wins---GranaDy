@@ -2,6 +2,7 @@ package markus.wieland.fourinarow;
 
 import markus.wieland.games.ai.AIMove;
 import markus.wieland.games.ai.pattern.PatternMatcher;
+import markus.wieland.games.ai.pattern.PatternType;
 import markus.wieland.games.game.GameBoardField;
 import markus.wieland.games.game.GameEventListener;
 import markus.wieland.games.game.MultiPlayerGame;
@@ -21,10 +22,7 @@ public class FourInARow extends MultiPlayerGame<FourInARowGameState, FourInARowG
         this.fourInARowGameBoardView.loadGameState(gameState);
 
         PatternMatcher.getInstance().initialize(4, fourInARowGameBoardView.getLines(), GameBoardField.FREE);
-        //TODO append by 4 bits with
-        // Das aber am besten direkt im patternmatcher
-        
-
+        PatternMatcher.getInstance().append(4, PatternType.BLOCKED);
         nextPlayer();
     }
 
@@ -52,6 +50,5 @@ public class FourInARow extends MultiPlayerGame<FourInARowGameState, FourInARowG
             return;
         }
         fourInARowGameBoardView.setEnabled(true);
-
     }
 }
