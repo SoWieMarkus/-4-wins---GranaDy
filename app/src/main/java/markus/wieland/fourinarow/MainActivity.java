@@ -19,6 +19,17 @@ public class MainActivity extends GameActivity<FourInARowConfiguration, Highscor
 
     @Override
     protected StartScreenView initializeStartScreen() {
+        findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                v.setY(-100);
+                v.animate().translationY(0)
+                        .setDuration(1000)
+                        .setInterpolator(new BounceInterpolator())
+                        .start();
+            }
+        });
+
 
         return null;
     }

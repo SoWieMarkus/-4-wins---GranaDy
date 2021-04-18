@@ -6,24 +6,86 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <markus.wieland.fourinarow.FourInARowGameBoardFieldView
-        android:id="@+id/fourInARowGameBoardFieldView"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fourInARowGameBoardFieldView2">
-
-    </markus.wieland.fourinarow.FourInARowGameBoardFieldView>
-
-    <markus.wieland.fourinarow.FourInARowGameBoardFieldView
-        android:id="@+id/fourInARowGameBoardFieldView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_marginBottom="-2dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-    </markus.wieland.fourinarow.FourInARowGameBoardFieldView>
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fourInARowGameBoardFieldView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".17">
+
+        </markus.wieland.fourinarow.FourInARowGameBoardFieldView>
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fourInARowGameBoardFieldView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".17">
+
+        </markus.wieland.fourinarow.FourInARowGameBoardFieldView>
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fourInARowGameBoardFieldView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".17">
+
+        </markus.wieland.fourinarow.FourInARowGameBoardFieldView>
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fourInARowGameBoardFieldView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".17">
+
+        </markus.wieland.fourinarow.FourInARowGameBoardFieldView>
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fourInARowGameBoardFieldView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".17">
+
+        </markus.wieland.fourinarow.FourInARowGameBoardFieldView>
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fourInARowGameBoardFieldView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".17">
+
+        </markus.wieland.fourinarow.FourInARowGameBoardFieldView>
+
+        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
+            android:id="@+id/fourInARowGameBoardFieldView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".17">
+
+        </markus.wieland.fourinarow.FourInARowGameBoardFieldView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

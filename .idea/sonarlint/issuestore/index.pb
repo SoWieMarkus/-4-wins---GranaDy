@@ -27,3 +27,5 @@ Iapp/src/main/java/markus/wieland/fourinarow/FourInARowGameStateField.java,d\5\
 app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
 t
 Dapp/src/main/java/markus/wieland/fourinarow/FourInARowGameState.java,4\2\42af76bd66f4231bdbd9128801a2eaa458b1a478
+m
+=app/src/main/java/markus/wieland/fourinarow/MainActivity.java,f\1\f1b7fe26fe35470c40667b8ec367bc04d42709e1
