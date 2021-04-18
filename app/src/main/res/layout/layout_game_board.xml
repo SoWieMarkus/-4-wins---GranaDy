@@ -1,6 +1,544 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout">
+
+        <ImageView
+            android:id="@+id/fiar_00"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_10"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_01"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/red_disc" />
+
+        <ImageView
+            android:id="@+id/fiar_04"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_14"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_05"
+            app:layout_constraintStart_toEndOf="@+id/fiar_03"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/red_disc" />
+
+        <ImageView
+            android:id="@+id/fiar_01"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_11"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_02"
+            app:layout_constraintStart_toEndOf="@+id/fiar_00"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/red_disc" />
+
+        <ImageView
+            android:id="@+id/fiar_02"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_12"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_03"
+            app:layout_constraintStart_toEndOf="@+id/fiar_01"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/red_disc" />
+
+        <ImageView
+            android:id="@+id/fiar_03"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_13"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_04"
+            app:layout_constraintStart_toEndOf="@+id/fiar_02"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/red_disc" />
+
+        <ImageView
+            android:id="@+id/fiar_05"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_15"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_06"
+            app:layout_constraintStart_toEndOf="@+id/fiar_04"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/red_disc" />
+
+        <ImageView
+            android:id="@+id/fiar_06"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/fiar_05"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/red_disc" />
+
+        <ImageView
+            android:id="@+id/fiar_10"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_20"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_11"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_00"
+            app:srcCompat="@drawable/red_disc" />
+
+        <ImageView
+            android:id="@+id/fiar_11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_21"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_12"
+            app:layout_constraintStart_toEndOf="@+id/fiar_10"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_01"
+            app:srcCompat="@drawable/red_disc" />
+
+        <ImageView
+            android:id="@+id/fiar_15"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_25"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_16"
+            app:layout_constraintStart_toEndOf="@+id/fiar_14"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_05"
+            app:srcCompat="@drawable/red_disc" />
+
+        <ImageView
+            android:id="@+id/fiar_16"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="1dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_26"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/fiar_15"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_06"
+            app:srcCompat="@drawable/red_disc" />
+
+        <ImageView
+            android:id="@+id/fiar_12"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_22"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_13"
+            app:layout_constraintStart_toEndOf="@+id/fiar_11"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_02"
+            app:srcCompat="@drawable/red_disc" />
+
+        <ImageView
+            android:id="@+id/fiar_13"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_23"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_14"
+            app:layout_constraintStart_toEndOf="@+id/fiar_12"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_03"
+            app:srcCompat="@drawable/red_disc" />
+
+        <ImageView
+            android:id="@+id/fiar_14"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_24"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_15"
+            app:layout_constraintStart_toEndOf="@+id/fiar_13"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_04"
+            app:srcCompat="@drawable/red_disc" />
+
+        <ImageView
+            android:id="@+id/fiar_20"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_30"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_21"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_10"
+            app:srcCompat="@drawable/yellow_disc" />
+
+        <ImageView
+            android:id="@+id/fiar_21"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_31"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_22"
+            app:layout_constraintStart_toEndOf="@+id/fiar_20"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_11"
+            app:srcCompat="@drawable/yellow_disc" />
+
+        <ImageView
+            android:id="@+id/fiar_22"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_32"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_23"
+            app:layout_constraintStart_toEndOf="@+id/fiar_21"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_12"
+            app:srcCompat="@drawable/yellow_disc" />
+
+        <ImageView
+            android:id="@+id/fiar_23"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_33"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_24"
+            app:layout_constraintStart_toEndOf="@+id/fiar_22"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_13"
+            app:srcCompat="@drawable/red_disc" />
+
+        <ImageView
+            android:id="@+id/fiar_25"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_35"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_26"
+            app:layout_constraintStart_toEndOf="@+id/fiar_24"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_15"
+            app:srcCompat="@drawable/red_disc" />
+
+        <ImageView
+            android:id="@+id/fiar_26"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_36"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/fiar_25"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_16"
+            app:srcCompat="@drawable/red_disc" />
+
+        <ImageView
+            android:id="@+id/fiar_24"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_34"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_25"
+            app:layout_constraintStart_toEndOf="@+id/fiar_23"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_14"
+            app:srcCompat="@drawable/yellow_disc" />
+
+        <ImageView
+            android:id="@+id/fiar_30"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_40"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_31"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_20"
+            app:srcCompat="@drawable/cell_frame" />
+
+        <ImageView
+            android:id="@+id/fiar_31"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_41"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_32"
+            app:layout_constraintStart_toEndOf="@+id/fiar_30"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_21"
+            app:srcCompat="@drawable/cell_frame" />
+
+        <ImageView
+            android:id="@+id/fiar_35"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_45"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_36"
+            app:layout_constraintStart_toEndOf="@+id/fiar_34"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_25"
+            app:srcCompat="@drawable/cell_frame" />
+
+        <ImageView
+            android:id="@+id/fiar_33"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_43"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_34"
+            app:layout_constraintStart_toEndOf="@+id/fiar_32"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_23"
+            app:srcCompat="@drawable/cell_frame" />
+
+        <ImageView
+            android:id="@+id/fiar_36"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_46"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/fiar_35"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_26"
+            app:srcCompat="@drawable/cell_frame" />
+
+        <ImageView
+            android:id="@+id/fiar_32"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_42"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_33"
+            app:layout_constraintStart_toEndOf="@+id/fiar_31"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_22"
+            app:srcCompat="@drawable/cell_frame" />
+
+        <ImageView
+            android:id="@+id/fiar_34"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_44"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_35"
+            app:layout_constraintStart_toEndOf="@+id/fiar_33"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_24"
+            app:srcCompat="@drawable/cell_frame" />
+
+        <ImageView
+            android:id="@+id/fiar_40"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_50"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_41"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_30"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageView
+            android:id="@+id/fiar_41"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_51"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_42"
+            app:layout_constraintStart_toEndOf="@+id/fiar_40"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_31"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageView
+            android:id="@+id/fiar_42"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="1dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_52"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_43"
+            app:layout_constraintStart_toEndOf="@+id/fiar_41"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_32"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageView
+            android:id="@+id/fiar_43"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_53"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_44"
+            app:layout_constraintStart_toEndOf="@+id/fiar_42"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_33"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageView
+            android:id="@+id/fiar_44"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_54"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_45"
+            app:layout_constraintStart_toEndOf="@+id/fiar_43"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_34"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageView
+            android:id="@+id/fiar_45"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_55"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_46"
+            app:layout_constraintStart_toEndOf="@+id/fiar_44"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_35"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageView
+            android:id="@+id/fiar_46"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/fiar_56"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/fiar_45"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_36"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageView
+            android:id="@+id/fiar_50"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_51"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_40"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageView
+            android:id="@+id/fiar_52"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_53"
+            app:layout_constraintStart_toEndOf="@+id/fiar_51"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_42"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageView
+            android:id="@+id/fiar_51"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_52"
+            app:layout_constraintStart_toEndOf="@+id/fiar_50"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_41"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageView
+            android:id="@+id/fiar_53"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_54"
+            app:layout_constraintStart_toEndOf="@+id/fiar_52"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_43"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageView
+            android:id="@+id/fiar_54"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_55"
+            app:layout_constraintStart_toEndOf="@+id/fiar_53"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_44"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageView
+            android:id="@+id/fiar_55"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fiar_56"
+            app:layout_constraintStart_toEndOf="@+id/fiar_54"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_45"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageView
+            android:id="@+id/fiar_56"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/fiar_55"
+            app:layout_constraintTop_toBottomOf="@+id/fiar_46"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            layout="@layout/layout_game_board_front_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".17" />
+
+        <include
+            layout="@layout/layout_game_board_front_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".17" />
+
+        <include
+            layout="@layout/layout_game_board_front_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".17" />
+
+        <include
+            layout="@layout/layout_game_board_front_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".17" />
+
+        <include
+            layout="@layout/layout_game_board_front_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".17" />
+
+        <include
+            layout="@layout/layout_game_board_front_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".17" />
+
+        <include
+            layout="@layout/layout_game_board_front_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".17" />
+
+    </LinearLayout>
+
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+
