@@ -4,88 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="-2dp"
-        android:orientation="horizontal"
+    <markus.wieland.fourinarow.FourInARowGameBoardView
+        android:id="@+id/four_in_a_row_game_board"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_for_game_board="@layout/layout_game_board">
+
+    </markus.wieland.fourinarow.FourInARowGameBoardView>
+
+    <markus.wieland.fourinarow.FourInARowStartScreen
+        android:id="@+id/four_in_a_row_start_screen"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_background="@layout/layout_four_in_a_row_start_screen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
-            android:id="@+id/fourInARowGameBoardFieldView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight=".17">
+    </markus.wieland.fourinarow.FourInARowStartScreen>
 
-        </markus.wieland.fourinarow.FourInARowGameBoardFieldView>
-
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
-            android:id="@+id/fourInARowGameBoardFieldView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight=".17">
-
-        </markus.wieland.fourinarow.FourInARowGameBoardFieldView>
-
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
-            android:id="@+id/fourInARowGameBoardFieldView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight=".17">
-
-        </markus.wieland.fourinarow.FourInARowGameBoardFieldView>
-
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
-            android:id="@+id/fourInARowGameBoardFieldView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight=".17">
-
-        </markus.wieland.fourinarow.FourInARowGameBoardFieldView>
-
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
-            android:id="@+id/fourInARowGameBoardFieldView5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight=".17">
-
-        </markus.wieland.fourinarow.FourInARowGameBoardFieldView>
-
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
-            android:id="@+id/fourInARowGameBoardFieldView6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight=".17">
-
-        </markus.wieland.fourinarow.FourInARowGameBoardFieldView>
-
-        <markus.wieland.fourinarow.FourInARowGameBoardFieldView
-            android:id="@+id/fourInARowGameBoardFieldView7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight=".17">
-
-        </markus.wieland.fourinarow.FourInARowGameBoardFieldView>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
+    <markus.wieland.fourinarow.FourInARowEndScreen
+        android:id="@+id/four_in_a_row_end_screen"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_background="@layout/layout_four_in_a_row_end_screen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
-    </LinearLayout>
+    </markus.wieland.fourinarow.FourInARowEndScreen>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

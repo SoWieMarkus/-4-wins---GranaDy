@@ -1,7 +1,7 @@
 package markus.wieland.fourinarow;
 
-import android.view.View;
-import android.view.animation.BounceInterpolator;
+import android.os.Bundle;
+import android.view.WindowManager;
 
 import markus.wieland.games.GameActivity;
 import markus.wieland.games.game.GameConfiguration;
@@ -18,25 +18,19 @@ public class MainActivity extends GameActivity<FourInARowConfiguration, Highscor
     }
 
     @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        super.onCreate(savedInstanceState);
+    }
+
+    @Override
     protected StartScreenView initializeStartScreen() {
-        findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                v.setY(-100);
-                v.animate().translationY(0)
-                        .setDuration(1000)
-                        .setInterpolator(new BounceInterpolator())
-                        .start();
-            }
-        });
-
-
-        return null;
+        return findViewById(R.id.four_in_a_row_start_screen);
     }
 
     @Override
     protected EndScreenView initializeEndScreen() {
-        return null;
+        return findViewById(R.id.four_in_a_row_end_screen);
     }
 
     @Override
@@ -51,8 +45,7 @@ public class MainActivity extends GameActivity<FourInARowConfiguration, Highscor
 
     @Override
     protected void initializeGame(FourInARowGameState fourInARowGameStateFields) {
-        //game = new FourInARow(this, fourInARowGameStateFields, null);
-
-
+        game = new FourInARow(this, fourInARowGameStateFields, findViewById(R.id.four_in_a_row_game_board));
+        game.start();
     }
 }

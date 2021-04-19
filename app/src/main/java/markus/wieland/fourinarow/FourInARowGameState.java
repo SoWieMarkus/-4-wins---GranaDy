@@ -17,7 +17,7 @@ public class FourInARowGameState extends GridGameState<FourInARowGameStateField>
         return players;
     }
 
-    public int[][] convert(){
+    public int[][] convert() {
         int[][] board = new int[FourInARowGameBoardView.SIZE_Y + 1][FourInARowGameBoardView.SIZE_X];
         for (FourInARowGameStateField field : matrix) {
             board[field.getCoordinate().getY()][field.getCoordinate().getX()] = field.getValue();

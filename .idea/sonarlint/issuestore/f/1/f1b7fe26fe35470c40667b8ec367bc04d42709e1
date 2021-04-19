@@ -1,6 +1,4 @@
 
-Q	java:S125*"<This block of commented-out lines of code should be removed.(õí¨›
-[
-java:S1128"FRemove this unused import 'android.view.animation.BounceInterpolator'.(‰èÆO
-I
-java:S1128".Remove this unused import 'android.view.View'.(Ø½­äşÿÿÿÿ
+J
+java:S1604"(Make this anonymous inner class a lambda(´Æîÿÿÿÿÿ8ÁÀ¤/
+Q	java:S1256"<This block of commented-out lines of code should be removed.(õí¨›

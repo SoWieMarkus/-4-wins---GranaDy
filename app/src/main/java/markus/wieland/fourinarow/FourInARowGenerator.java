@@ -29,9 +29,9 @@ public class FourInARowGenerator extends GameGenerator<FourInARowGameState> {
         PlayerManager players = new PlayerManager();
         SerializableMatrix<FourInARowGameStateField> fields = new SerializableMatrix<>(FourInARowGameBoardView.SIZE_X, FourInARowGameBoardView.SIZE_Y);
 
-        for (int x = 0;  x < FourInARowGameBoardView.SIZE_X; x++){
-            for (int y = 0;  y < FourInARowGameBoardView.SIZE_Y; y++){
-                fields.set(new Coordinate(x,y), new FourInARowGameStateField(new Coordinate(x,y)));
+        for (int x = 0; x < FourInARowGameBoardView.SIZE_X; x++) {
+            for (int y = 0; y < FourInARowGameBoardView.SIZE_Y; y++) {
+                fields.set(new Coordinate(x, y), new FourInARowGameStateField(new Coordinate(x, y)));
             }
         }
 

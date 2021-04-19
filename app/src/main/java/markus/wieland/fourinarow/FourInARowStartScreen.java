@@ -31,6 +31,13 @@ public class FourInARowStartScreen extends StartScreenView {
 
     @Override
     protected void onBuild() {
+        setBackgroundColor(getContext().getColor(R.color.start));
+        findViewById(R.id.activity_fiar_start_screen_multiplayer).setOnClickListener(v -> setSinglePlayer(false));
+        findViewById(R.id.activity_fiar_start_single_player).setOnClickListener(v -> setSinglePlayer(true));
+    }
 
+    private void setSinglePlayer(boolean isSinglePlayer) {
+        this.isSinglePlayer = isSinglePlayer;
+        close();
     }
 }
