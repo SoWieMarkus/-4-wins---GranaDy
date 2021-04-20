@@ -12,7 +12,7 @@ etc.
 
 The cup then takes place in knockout mode. All drivers drive the track. The slowest drivers are eliminated. In the end, the last player left wins. The winner of the Cup of the Day is the winner of Server 1.
 
-The player GranaDy from Germany managed to win this cup four times in a row!
+The player GranaDy from Germany managed to win this cup four times in a row! Make sure to subscribe and leave a like!
 
 * First win:    https://www.youtube.com/watch?v=bvNOU2-HO98
 * Second win:   https://www.youtube.com/watch?v=98mtWp5DnDM
