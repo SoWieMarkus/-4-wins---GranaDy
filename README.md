@@ -14,10 +14,10 @@ The cup then takes place in knockout mode. All drivers drive the track. The slow
 
 The player GranaDy from Germany managed to win this cup four times in a row! Make sure to subscribe and leave a like!
 
-* First win:    https://www.youtube.com/watch?v=bvNOU2-HO98
-* Second win:   https://www.youtube.com/watch?v=98mtWp5DnDM
-* Third win:    https://www.youtube.com/watch?v=sMtXSPHE-Xk
-* Fourth win:   https://www.youtube.com/watch?v=R8qeYx9wnZg
+* <a href="https://www.youtube.com/watch?v=bvNOU2-HO98">First win</a>
+* <a href="https://www.youtube.com/watch?v=98mtWp5DnDM">Second win</a>
+* <a href="https://www.youtube.com/watch?v=sMtXSPHE-Xk">Third win</a>
+* <a href="https://www.youtube.com/watch?v=R8qeYx9wnZg">Fourth win</a>
 
 This is how the meme with <a href="https://en.wikipedia.org/wiki/Connect_Four">Connect 4</a> came about. 
 
