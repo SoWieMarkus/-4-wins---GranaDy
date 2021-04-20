@@ -27,4 +27,6 @@ To explain the name of the projet: GranaDy said he didn't know what the game was
 
 This game is a simple version of <a href="https://en.wikipedia.org/wiki/Connect_Four">Connect 4</a>. You can play as GranaDy against a computer or a friend! The disc of GranaDy is the "granaSpeed"-Emote from his Twitch Channel. The other players disc is the author medal of the Trackmania 2020 game. (The medal a player gets, when he is able to beat the time of the author of a track).
 
+<img src="https://github.com/SoWieMarkus/4-wins-GranaDy/blob/main/screenshots/Screenshot_20210420-114353_4%20wins%20-%20GranaDy.jpg">
+
 
